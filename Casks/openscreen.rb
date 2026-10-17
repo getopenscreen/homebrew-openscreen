@@ -1,15 +1,15 @@
 cask "openscreen" do
-  version "2.0.0"
+  version "2.1.0"
 
   on_arm do
-    sha256 "0ef9f341d1f2ddb640402b49a87c5500c01c7fdf37cebe6a12011d1dd0e96c66"
+    sha256 "c8dc1b15a96180cc42d26f9e07019b61c57e9671ba5b922e96314a512025be53"
 
-    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Apple-Silicon-2.0.0.dmg"
+    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Apple-Silicon-2.1.0.dmg"
   end
   on_intel do
-    sha256 "5124341aa6d3496971c1c78c33603a711c934a65c41bceb79bf5972a14e27bfa"
+    sha256 "ac7a7133ef2152231e3397ec1538d257ab48afff62de2206ebff292cd3100541"
 
-    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Intel-2.0.0.dmg"
+    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Intel-2.1.0.dmg"
   end
 
   name "Openscreen"
@@ -17,7 +17,7 @@ cask "openscreen" do
   homepage "https://github.com/getopenscreen/openscreen"
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Openscreen.app"
 
