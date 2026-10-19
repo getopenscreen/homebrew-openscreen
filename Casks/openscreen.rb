@@ -1,15 +1,15 @@
 cask "openscreen" do
-  version "2.1.1"
+  version "2.1.2"
 
   on_arm do
-    sha256 "ec45c3654bd58cbfe91e0880762de2742dad5739c2bba4234c48c64a0b968f7e"
+    sha256 "1313d3376ca2bff5deaffc8114e7868e4545e5b95828773e3076d56a15a70f4e"
 
-    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Apple-Silicon-2.1.1.dmg"
+    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Apple-Silicon-2.1.2.dmg"
   end
   on_intel do
-    sha256 "df0faee442505c2cd5cd5ce7c0583f5f3c16cc39d4c3c21f2755af66747c6244"
+    sha256 "a5094f057f90284116c2a0e2ffc75756b30d4a5f1bc132b13bc448b8d0ffc16e"
 
-    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Intel-2.1.1.dmg"
+    url "https://github.com/getopenscreen/openscreen/releases/download/v#{version}/Openscreen-macOS-Intel-2.1.2.dmg"
   end
 
   name "Openscreen"
